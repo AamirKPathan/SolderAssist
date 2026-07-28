@@ -42,7 +42,7 @@ The design is intended to be:
 
 The base provides the main structural support for the system.
 
-![Solder Assist base](../Images/Base.png)
+![Solder Assist base](Images/Base.png)
 
 A steel base is used to:
 
@@ -55,25 +55,25 @@ A steel base is used to:
 
 The vertical arm raises the holding mechanism above the base and provides height adjustment.
 
-![Solder Assist vertical arm](../Images/Vertical%20Arm.png)
+![Solder Assist vertical arm](Images/Vertical%20Arm.png)
 
 ### Horizontal Arm
 
 The horizontal arm extends the working area outward from the vertical support.
 
-![Solder Assist horizontal arm](../Images/Horizontal%20Arm.png)
+![Solder Assist horizontal arm](Images/Horizontal%20Arm.png)
 
 ### Lateral Arm
 
 The lateral arm provides additional positioning control and allows the end holder to approach the workpiece from different angles.
 
-![Solder Assist lateral arm](../Images/Lateral%20Arm.png)
+![Solder Assist lateral arm](Images/Lateral%20Arm.png)
 
 ### Complete Assembly
 
 The full Solder Assist assembly combines the base, vertical arm, horizontal arm, and lateral arm into one adjustable desktop tool.
 
-![Complete Solder Assist CAD assembly](../Images/Solder%20Assist.png)
+![Complete Solder Assist CAD assembly](Images/Solder%20Assist.png)
 
 ---
 
@@ -115,22 +115,22 @@ These files can be opened in CAD software such as:
 
 ```text
 Solder-Assist/
-│
-├── CAD/
-│   ├── Base.step
-│   ├── Vertical Arm.step
-│   ├── Horizontal Arm.step
-│   ├── Lateral Arm.step
-│   └── Solder Assist.step
-│
-├── BOM/
-│   └── Solder_Assist.csv
-│
-├── Documentation/
-│   ├── README.md
-│   └── Journal.md
-│
-└── Images/
+|-- BOM/
+|   `-- BOM.csv
+|-- CAD/
+|   |-- Base.step
+|   |-- Vertical Arm.step
+|   |-- Horizontal Arm.step
+|   |-- Lateral Arm.step
+|   `-- Solder Assist.step
+|-- Images/
+|   |-- Base.png
+|   |-- Vertical Arm.png
+|   |-- Horizontal Arm.png
+|   |-- Lateral Arm.png
+|   `-- Solder Assist.png
+|-- Journal.md
+`-- README.md
 ```
 
 ---
@@ -177,7 +177,7 @@ Print settings may need to be adjusted depending on the printer, filament, and f
 The project bill of materials is stored in:
 
 ```text
-BOM/Solder_Assist.csv
+BOM/BOM.csv
 ```
 
 The BOM should include:
