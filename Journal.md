@@ -1,43 +1,38 @@
 ---
-title: "Solder Assist Development Journal"
+title: "Solder Assist"
 author: "Aamir Khan Pathan"
-project: "Solder Assist"
+description: "A modular desktop tool for holding circuit boards, wires, and small electronic components during soldering."
 created_at: "2026-07-25"
-status: "Completed"
 ---
 
-# July 25, 2026 — Solder Assist CAD Design
+# July 25th: Completed the initial CAD design
 
-The goal of this session was to design a compact and adjustable tool for holding circuit boards, wires, and small electronic components during soldering.
+I completed the first full CAD design of Solder Assist using Fusion 360. I began by planning the project around a weighted steel base, three adjustable arm sections, and simple friction-based joints.
 
-I first planned the project around a weighted base, three articulated arm sections, and simple friction joints. I chose a steel base for stability, 3D-printed parts for easy manufacturing, and M3 hardware because it is inexpensive and commonly available.
+I designed the base, vertical arm, horizontal arm, and lateral arm as separate components. This made the assembly modular and allowed each part to be edited, replaced, or reprinted individually.
 
-I then designed the base, vertical arm, horizontal arm, and lateral arm as separate components. Creating each part separately made the project easier to modify and allowed individual parts to be replaced without redesigning the entire assembly.
+After creating the individual components, I assembled them in Fusion 360 to check the alignment of the joints, clearances between parts, overall proportions, and expected range of motion. The joints were designed to use M3 × 25 mm socket head cap screws and M3 hex nuts.
 
-![Solder Assist base](Images/Base.png)
+I exported the completed models as the following STEP files:
 
-![Solder Assist vertical arm](Images/Vertical%20Arm.png)
+- `Base.step`
+- `Vertical Arm.step`
+- `Horizontal Arm.step`
+- `Lateral Arm.step`
+- `Solder Assist.step`
 
-![Solder Assist horizontal arm](Images/Horizontal%20Arm.png)
+The main challenge was creating adjustable joints without making the design unnecessarily complicated. I selected friction-based joints because they reduced the number of parts and allowed the arm positions to be adjusted by tightening or loosening the M3 hardware.
 
-![Solder Assist lateral arm](Images/Lateral%20Arm.png)
+Software used:
 
-After completing the parts, I assembled them in CAD to check alignment, joint movement, clearances, and overall proportions. I adjusted the component positions until the arm could move through a useful range without interfering with itself.
+- Autodesk Fusion 360
 
-![Complete Solder Assist CAD assembly](Images/Solder%20Assist.png)
+Lapse link:
 
-The main challenge was balancing adjustability with simplicity. I considered more complicated joints using FRC 1/2" ball bearings, but selected friction-based joints to reduce cost, part count, and manufacturing difficulty.
+- Not available
 
-The completed files were:
+![Solder Assist complete CAD assembly](Images/solder-assist-assembly.png)
 
-```text
-CAD/Base.step
-CAD/Vertical Arm.step
-CAD/Horizontal Arm.step
-CAD/Lateral Arm.step
-CAD/Solder Assist.step
-```
-
-By the end of the session, the full CAD assembly was complete, the files were organized, and the project was ready for physical manufacturing and testing.
+![Solder Assist individual CAD components](Images/solder-assist-components.png)
 
 **Total time spent: 1h**
