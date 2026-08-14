@@ -3,11 +3,12 @@ Working BOM   , "as of July 25, 2026 at 1:40:08 PM UTC"
 Exported by   , programmingpathanaa@gmail.com
 Time of Export, "1:40 PM Jul 25, 2026"
 
-              , Part Number                            , Part Name                                                       , Revision/Version, Description                                     , Item Number, Lifecycle, Revision, State  , Quantity, Material          , Change Order
+
+, Part Number                            , Part Name                                                       , Revision/Version, Description                                     , Item Number, Lifecycle, Revision, State  , Quantity, Material          , Change Order
               , 2026-07-25-09-11-04-243                , Solder Assist                                                   ,                 ,                                                 ,            ,          ,         , Working, 1       ,                   , 
 1             , 2026-07-24-17-41-38-283                , Vertical Arm                                                    ,                 ,                                                 ,            ,          ,         , Working, 1       , Plastic           , 
 2             , 2026-07-24-17-36-41-566                , Horizontal Arm                                                  ,                 ,                                                 ,            ,          ,         , Working, 1       , Plastic           , 
 3             , 2026-07-24-17-27-04-377                , Base                                                            ,                 ,                                                 ,            ,          ,         , Working, 1       , Steel             , 
-4             , DIN EN ISO 4032 - M3 Steel 6 Plain     , Hexagon Regular Nut DIN EN ISO 4032 - M3 Steel 6 Plain          ,                 , Hexagon Regular Nut DIN EN ISO 4032 - M3        ,            ,          ,         , Working, 30      , "Steel 6, Plain"  , 
+4             , DIN EN ISO 4032 - M3 Steel 6 Plain     , Hexagon Regular Nut DIN EN ISO 4032 - M3 Steel 6 Plain          ,                 , Hexagon Regular Nut DIN EN ISO 4032 - M3        ,            ，          ，         ， Working， 30      ， "Steel 6, Plain"  ，   
 5             , ISO 4762 - M3 x 25 Steel 4.6 Plain     , Hexagon Socket Head Cap Screw ISO 4762 - M3 x 25 Steel 4.6 Plain,                 , Hexagon Socket Head Cap Screw ISO 4762 - M3 x 25,            ,          ,         , Working, 3       , "Steel 4.6, Plain", 
 6             , 2026-07-25-09-07-43-538                , Lateral Arm                                                     ,                 ,                                                 ,            ,          ,         , Working, 1       , Plastic           , 
