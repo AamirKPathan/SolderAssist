@@ -1,5 +1,5 @@
-﻿Item Number,Part Number,Part Name,Revision/Version,Description,Lifecycle,Revision,State,Quantity,Material,Change Order
-1,2026-07-25-09-11-04-243,Solder Assist,,, , ,Working,1,,
+﻿Item Number,Part Number,Part Name,Revision/Version,Description,Lifecycle,Revision,State,Quantity,Material,Change Order,Link, Price
+1,2026-07-25-09-11-04-243,Solder Assist,,, , ,Working,1,,,,
 2,2026-07-24-17-41-38-283,Vertical Arm,,, , ,Working,1,Plastic,
 3,2026-07-24-17-36-41-566,Horizontal Arm,,, , ,Working,1,Plastic,
 4,2026-07-24-17-27-04-377,Base,,, , ,Working,1,Steel,
